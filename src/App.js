@@ -18,8 +18,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/portal" element={<Portal />}>
+        
+        <Route path="/" element={<Portal />}>
           <Route path="dashboard" element={<DashBoard />}></Route>
           <Route path="users" element={<Users />}></Route>
           <Route path="users/view/:userid" element={<UserView />}></Route>

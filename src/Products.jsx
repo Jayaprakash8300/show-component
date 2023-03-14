@@ -46,7 +46,7 @@ function Products() {
       <div className="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 className="h3 mb-0 text-gray-800">Products</h1>
         <Link
-          to="/portal/create-user"
+          to="/create-user"
           className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
         >
           <i className="fas fa-download fa-sm text-white-50"></i> Create Product
@@ -104,13 +104,13 @@ function Products() {
                         <td>{product.price}</td>
                         <td>
                           <Link
-                            to={`/portal/products/view/${product.id}`}
+                            to={`/products/view/${product.id}`}
                             className="btn btn-primary mr-2"
                           >
                             View
                           </Link>
                           <Link
-                            to={`/portal/products/edit/${product.id}`}
+                            to={`/products/edit/${product.id}`}
                             className="btn btn-warning mr-2"
                           >
                             Edit

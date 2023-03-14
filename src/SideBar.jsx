@@ -29,7 +29,7 @@ function SideBar() {
       <hr className="sidebar-divider my-0" />
 
       <li className="nav-item active">
-        <Link className="nav-link" to="/portal/dashboard">
+        <Link className="nav-link" to="/dashboard">
           <i className="fas fa-fw fa-tachometer-alt">
             {" "}
             <FontAwesomeIcon icon={faTachometerAlt} />
@@ -39,7 +39,7 @@ function SideBar() {
         </Link>
       </li>
       <li className="nav-item active">
-        <Link className="nav-link" to="/portal/users">
+        <Link className="nav-link" to="/users">
           <i className="fas fa-fw fa-tachometer-alt">
             <FontAwesomeIcon icon={faUser} />
           </i>
@@ -47,7 +47,7 @@ function SideBar() {
         </Link>
       </li>
       <li className="nav-item active">
-        <Link className="nav-link" to="/portal/products">
+        <Link className="nav-link" to="/products">
           <i className="fas fa-fw fa-tachometer-alt">
             <FontAwesomeIcon icon={faBagShopping} />
           </i>
